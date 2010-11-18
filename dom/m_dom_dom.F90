@@ -87,7 +87,8 @@ module m_dom_dom
 !!$    .true.,  & ! discard-default-content
 !!$    .false., & ! format-pretty-print
 !!$    .true.  /) ! xml-declaration
-  integer, parameter :: paramSettable = 127956694
+
+ integer, parameter :: paramSettable = ibset(127956694,22)
 
 !!$  logical, parameter :: paramDefaults(26) = (/ &
 !!$    .false., & ! canonical-form
